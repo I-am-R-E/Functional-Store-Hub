@@ -15,5 +15,5 @@
  
 </div>
 <div align="center">
-简略使用方法:分流指向节点<br><br>详细使用方法:https://t.me/Functional_Store_Hub/16
+简略使用方法:分流指向节点<br><br>详细使用方法:https://t.me/Functional_Store_Hub/18
 </div>
