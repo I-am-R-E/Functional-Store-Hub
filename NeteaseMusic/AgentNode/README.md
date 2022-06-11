@@ -15,5 +15,5 @@
  
 </div>
 <div align="center">
-<h3 align="center">使用方法:分流指向节点<h3>
+简略使用方法:分流指向节点<br><br>详细使用方法:https://t.me/Functional_Store_Hub/16
 </div>
