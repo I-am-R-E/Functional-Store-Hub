@@ -14,3 +14,6 @@
 | ShadowRocket | 2 | 2022.06.11 | [Shadowrocket.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Shadowrocket.list) |
  
 </div>
+<div align="center">
+<h3 align="center">使用方法:分流指向节点<h3>
+</div>
