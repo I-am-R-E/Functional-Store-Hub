@@ -1,0 +1,5 @@
+[Panel]
+策略面板 = script-name=代理链路检测,update-interval=21600
+
+[Script]
+代理链路检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, argument=title=代理链路检测
