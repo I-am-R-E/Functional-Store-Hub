@@ -2,7 +2,7 @@
 <h1 align="center">Node Link Check<br>代理链路检测<h1>
 <p align="center" color="#6a737d"><p>
 <h3 align="center">2.0重构开源版<h3>
-<h3 align="center">支持Surge、QuantumultX、Loon<h3>
+<h3 align="center">支持Surge(有点问题)、QuantumultX、Loon<h3>
 <br>
 </div>
 <b>使用方式：</b>
