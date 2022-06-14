@@ -1,4 +1,5 @@
 #!name = NodeLinkCheck
+#!desc=一款支持Surge、QuantumultX、Loon的节点代理链路检测模块
 
 [Panel]
 策略面板 = script-name=代理链路检测,update-interval=21600
