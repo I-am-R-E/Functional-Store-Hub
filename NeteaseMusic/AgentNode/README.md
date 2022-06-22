@@ -8,10 +8,10 @@
 
 | 软件名称 | 节点数量 | 更新时间 | 资源链接 |
 | :----: | :----: | :----: | :----: |
-| QuantumultX | 2 | 2022.06.11 | [QuantumultX.snippet](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet) |
-| Loon | 2 | 2022.06.11 | [Loon.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Loon.list) |
-| Surge | 2 | 2022.06.11 | [Surge.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Surge.list) |
-| ShadowRocket | 2 | 2022.06.11 | [Shadowrocket.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Shadowrocket.list) |
+| QuantumultX | 1/3 | 2022.06.22 | [QuantumultX.snippet](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet) |
+| Loon | 1/3 | 2022.06.22 | [Loon.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Loon.list) |
+| Surge | 1/3 | 2022.06.23 | [Surge.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Surge.list) |
+| ShadowRocket | 1/3 | 2022.06.22 | [Shadowrocket.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Shadowrocket.list) |
  
 </div>
 <div align="center">
