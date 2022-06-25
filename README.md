@@ -6,12 +6,17 @@
 </div>
 <div align="center">
 
-| 名称 | 类型 | 介绍 | 使用说明 |
-| :----: | :----: | :----: | :----: |
-| 网易音乐查询 | Script | 检测指定节点能否解锁网易云音乐灰色歌曲 | 点击跳转 |
-| 代理链路检测 | Script | 检测指定节点的代理链路状况 | 点击跳转 |
-| 知乎极致优化 | Script | 针对知乎6.0客户端的极致优化 | 点击跳转 |
-| QuantumultX配置 | Configuration File | 最有逻辑的QuantumultX懒人配置文件 | 点击跳转 |
-| ShadowRocket配置 | Configuration File | 最有逻辑的ShadowRocket懒人配置文件 | 点击跳转 |
+| 名称 | 版本 | 类型 | 支持 | 介绍 | 链接 |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| 网易音乐查询 | 1.1(2022.6.22) | Script | QX Loon(适配中) Surge(适配中) Stash(适配中) | 检测指定节点能否解锁网易云音乐灰色歌曲 | Come Soon |
+| 代理链路检测 | 2.0(2022.6.14) | Script | QX Loon Surge Stash(适配中) | 检测指定节点的代理链路状况 | [Node Link Check](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NodeLinkCheck) |
+| 知乎极致优化 | 0.0 | Script | QX Loon Surge Stash | 针对知乎6.0客户端的极致优化 | Come Soon |
+| 本地Geo检查器优化 | 1.2(2022.6.24) | Script | QuantumultX | 内容优化且只显示有用信息的本地Geo检查器 | [Geo Location Checker](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/GeoLocationChecker/QuantumultX) |
+| QuantumultX配置 | 0.0 | Configuration File | QuantumultX | 最有逻辑的QuantumultX懒人配置文件 | Come Soon |
+| ShadowRocket配置 | 0.0 | Configuration File | ShadowRocket | 最有逻辑的ShadowRocket懒人配置文件 | Come Soon |
  
 </div>
+ 
+🎉 你可以在这里找到使用方法和注意事项: [Functional Store Hub 频道](https://t.me/Functional_Store_Hub)
+ 
+😀 如果你想反馈问题,你可以直接在Github上提交issues或者加入[Functional Store Hub Discussion 群组](https://t.me/Functional_Store_Hub_Discussion)找到我
