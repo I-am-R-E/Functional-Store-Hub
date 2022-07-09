@@ -1,5 +1,5 @@
 name: WPS会员
-desc: WPS解锁本地会员(2022.07.10) R·E
+desc: WPS解锁本地会员,支持大陆版以及非大陆版 @R·E
 
 http:
   mitm:
