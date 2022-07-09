@@ -1,0 +1,19 @@
+name: WPS会员
+desc: WPS解锁本地会员(2022.07.10) R·E
+
+http:
+  mitm:
+    - "account.wps.cn"
+    - "*account.wps.com"
+  script:
+    - match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
+      name: WPS.response
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+
+script-providers:
+  WPS.response:
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
+    interval: 86400
