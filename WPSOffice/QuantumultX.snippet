@@ -1,4 +1,10 @@
-hostname = account.wps.cn,*account.wps.com
+#!name=WPS会员
+#!desc=WPS解锁本地会员(2022.07.10)
+#!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice
+#!author=R·E
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/
+#!manual=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice
 
-# > WPS解锁本地会员(2022.07.10)
 ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
+
+hostname = account.wps.cn,*account.wps.com
