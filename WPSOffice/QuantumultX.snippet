@@ -1,0 +1,4 @@
+hostname = account.wps.cn,*account.wps.com
+
+# > WPS解锁本地会员(2022.07.10)
+^https?:\/\/.*?account\.wps\.(com|cn)\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
