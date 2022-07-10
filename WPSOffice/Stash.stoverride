@@ -1,5 +1,5 @@
 name: WPS会员
-desc: WPS解锁本地会员,支持大陆版以及非大陆版 @R·E
+desc: WPS解锁本地会员,支持大陆版以及非大陆版 @R·E https://t.me/Functional_Store_Hub
 
 http:
   mitm:
