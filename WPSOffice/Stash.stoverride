@@ -3,16 +3,15 @@ desc: WPS解锁本地会员,支持大陆版以及非大陆版 @R·E https://t.me
 
 http:
   mitm:
-    - "account.wps.cn"
-    - "*account.wps.com"
+    - 'account.wps.cn'
+    - '*account.wps.com'
   script:
     - match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
       name: WPS.response
       type: response
       require-body: true
       timeout: 10
-      argument:
-
+      
 script-providers:
   WPS.response:
     url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
