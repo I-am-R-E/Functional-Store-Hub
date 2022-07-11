@@ -1,0 +1,10 @@
+#!name=财新会员
+#!desc=解锁财新V2会员,随时拉闸
+#!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/CaiXin
+#!author=@R·E https://t.me/Functional_Store_Hub
+
+[Script]
+http-request ^https?:\/\/.*?\.caixin\.com script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/Caixin.js, timeout=10, tag=财新会员
+
+[MITM]
+hostname = *.caixin.com
