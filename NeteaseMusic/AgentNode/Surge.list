@@ -1,7 +1,13 @@
 # > NeteaseMusic Unlock List
-# > Just Collect Available Nodes
-# > 2022.06.22
+# > All Nodes
+# > 2022.07.11
 NeteaseMusic Unlock 1 = http, music.lolico.me, 39000
+NeteaseMusic Unlock 3 = ss, music.desperadoj.com, 30001, encrypt-method=aes-128-gcm, password=music.desperadoj.com, tfo=false, udp-relay=false
 NeteaseMusic Unlock 3 = ss, music.desperadoj.com, 30003, encrypt-method=aes-128-gcm, password=music.desperadoj.com, tfo=false, udp-relay=false
-NeteaseMusic Unlock 5 = http, music.griouges.cn, 39000
-NeteaseMusic Unlock 10 = http, 119.176.253.89, 9080
+NeteaseMusic Unlock 4 = http,101.132.79.113,23333
+NeteaseMusic Unlock 5 = http,music.griouges.cn,39000
+NeteaseMusic Unlock 6 = http,1.116.214.16,19980
+NeteaseMusic Unlock 7 = http,salvan.icu,19980
+NeteaseMusic Unlock 8 = http,os.tencentcdn.net,25000
+NeteaseMusic Unlock 9 = http,pc.tencentcdn.net,35000
+NeteaseMusic Unlock 10 = http,119.176.253.89,9080
