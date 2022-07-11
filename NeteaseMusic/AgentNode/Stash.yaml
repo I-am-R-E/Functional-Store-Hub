@@ -1,3 +1,6 @@
+# > NeteaseMusic Unlock List
+# > All Nodes
+# > 2022.07.11
 proxies:
   - {"server":"music.lolico.me","port":39000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 1","type":"http"}
   - {"server":"music.desperadoj.com","port":30001,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_d39m","tfo":false,"udp":false,"name":"NeteaseMusic Unlock 2","type":"ss"}
