@@ -11,5 +11,5 @@ http:
       timeout: 10
 script-providers:
   CaiXin:
-    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/Caixin.js
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
     interval: 86400
