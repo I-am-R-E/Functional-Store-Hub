@@ -4,5 +4,5 @@ RECaiXinHeader['User-Agent'] = RECaiXinHeaderData[0];
 RECaiXinHeader['appinfo'] = RECaiXinHeaderData[1];
 RECaiXinHeader['authentication'] = RECaiXinHeaderData[2];
 RECaiXinHeader['Cookie'] = RECaiXinHeaderData[3];
-var RECaiXinPath = $request.path.replace(/uid=\d+/,"uid=12781895").replace(/code=\w+/,"code=32E5D890B2943C75BF9305AB1FBAE13B").replace(/device=\w+/,"device=699440d159f8b18216b678d3261c91afa3a8a444");
-$done({headers: RECaiXinHeader});
+const RECaiXinURL = $request.url.replace(/uid=(\d+|)/g,"uid=12781895").replace(/code=(\w+|)/g,"code=32E5D890B2943C75BF9305AB1FBAE13B").replace(/device=(\w+|)/g,"device=699440d159f8b18216b678d3261c91afa3a8a444").replace(/deviceType=(\d+|)/g,"deviceType=1");
+$done({ url: RECaiXinURL, headers: RECaiXinHeader});
