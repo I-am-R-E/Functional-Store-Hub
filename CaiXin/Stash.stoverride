@@ -2,9 +2,9 @@ name: 财新会员
 desc: 解锁财新V2会员,随时拉闸
 http:
   mitm:
-    - '*.caixin.com'
+    - 'gateway.caixin.com'
   script:
-    - match: ^https?:\/\/.*?\.caixin\.com
+    - match: ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/validate
       name: CaiXin
       type: request
       require-body: false
