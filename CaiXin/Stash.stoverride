@@ -4,7 +4,7 @@ http:
   mitm:
     - 'gateway.caixin.com'
   script:
-    - match: ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/validate
+    - match: ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth)
       name: CaiXin
       type: request
       require-body: false
