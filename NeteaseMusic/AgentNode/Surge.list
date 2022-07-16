@@ -2,8 +2,8 @@
 # > All Nodes
 # > 2022.07.16
 NeteaseMusic Unlock 1 = http, music.lolico.me, 39000
-NeteaseMusic Unlock 2 = ss, music.desperadoj.com, 30001, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
-NeteaseMusic Unlock 3 = ss, music.desperadoj.com, 30003, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
+NeteaseMusic Unlock 2 = ss, 101.132.192.212, 30001, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
+NeteaseMusic Unlock 3 = ss, 101.132.192.212, 30003, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
 NeteaseMusic Unlock 4 = http,101.132.79.113,23333
 NeteaseMusic Unlock 5 = http,music.griouges.cn,39000
 NeteaseMusic Unlock 6 = http,1.116.214.16,19980
