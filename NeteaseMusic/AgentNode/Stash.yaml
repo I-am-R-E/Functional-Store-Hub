@@ -3,8 +3,8 @@
 # > 2022.07.11
 proxies:
   - {"server":"music.lolico.me","port":39000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 1","type":"http"}
-  - {"server":"music.desperadoj.com","port":30001,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_d39m","tfo":false,"udp":false,"name":"NeteaseMusic Unlock 2","type":"ss"}
-  - {"server":"music.desperadoj.com","port":30003,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_d39m","tfo":false,"udp":false,"name":"NeteaseMusic Unlock 3","type":"ss"}
+  - {"server":"music.desperadoj.com","port":30001,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_etg0","tfo":false,"udp":false,"name":"NeteaseMusic Unlock 2","type":"ss"}
+  - {"server":"music.desperadoj.com","port":30003,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_etg0","tfo":false,"udp":false,"name":"NeteaseMusic Unlock 3","type":"ss"}
   - {"server":"101.132.79.113","port":23333,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 4","type":"http"}
   - {"server":"music.griouges.cn","port":39000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 5","type":"http"}
   - {"server":"1.116.214.16","port":19980,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 6","type":"http"}
