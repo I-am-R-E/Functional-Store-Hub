@@ -12,3 +12,5 @@ proxies:
   - {"server":"os.tencentcdn.net","port":25000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 8","type":"http"}
   - {"server":"pc.tencentcdn.net","port":35000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 9","type":"http"}
   - {"server":"119.176.253.89","port":9080,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 10","type":"http"}
+  - {"server":"azgw.kevinxiao.cf","port":70,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 11","type":"http"}
+  - {"server":"azmb.kevinxiao.cf","port":70,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 12","type":"http"}
