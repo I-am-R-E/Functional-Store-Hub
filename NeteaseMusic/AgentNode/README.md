@@ -8,11 +8,11 @@
 
 | 软件名称 | 节点数量 | 更新时间 | 资源链接 |
 | :----: | :----: | :----: | :----: |
-| Surge | 10 | 2022.07.11 | [Surge.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Surge.list) |
-| QuantumultX | 10 | 2022.07.11 | [QuantumultX.snippet](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet) |
-| Loon | 10 | 2022.07.11 | [Loon.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Loon.list) |
-| Stash | 10 | 2022.07.11 | [Stash.yaml](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Stash.yaml) |
-| ShadowRocket | 10 | 2022.07.11 | [Shadowrocket.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Shadowrocket.list) |
+| Surge | 10 | 2022.07.16 | [Surge.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Surge.list) |
+| QuantumultX | 10 | 2022.07.16 | [QuantumultX.snippet](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet) |
+| Loon | 10 | 2022.07.16 | [Loon.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Loon.list) |
+| Stash | 10 | 2022.07.16 | [Stash.yaml](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Stash.yaml) |
+| ShadowRocket | 10 | 2022.07.16 | [Shadowrocket.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Shadowrocket.list) |
  
 </div>
 <div align="center">
