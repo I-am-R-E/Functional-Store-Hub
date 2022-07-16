@@ -2,8 +2,8 @@
 # > All Nodes
 # > 2022.07.11
 NeteaseMusic Unlock 1 = http,music.lolico.me,39000
-NeteaseMusic Unlock 2 = Shadowsocks,music.desperadoj.com,30001,aes-128-gcm,"music.desperadoj.com"
-NeteaseMusic Unlock 3 = Shadowsocks,music.desperadoj.com,30003,aes-128-gcm,"music.desperadoj.com"
+NeteaseMusic Unlock 2 = desperadoj.com_free_proxy_etg0,30001,aes-128-gcm,"music.desperadoj.com"
+NeteaseMusic Unlock 3 = desperadoj.com_free_proxy_etg0,30003,aes-128-gcm,"music.desperadoj.com"
 NeteaseMusic Unlock 4 = http,101.132.79.113,23333
 NeteaseMusic Unlock 5 = http,music.griouges.cn,39000
 NeteaseMusic Unlock 6 = http,1.116.214.16,19980
