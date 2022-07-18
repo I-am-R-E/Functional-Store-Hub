@@ -1,5 +1,5 @@
 name: 财新会员
-desc: 解锁财新V2会员,随时拉闸
+desc: 解锁财新文章阅读与音频限制 @Functional_Store_Hub
 http:
   mitm:
     - 'gateway.caixin.com'
