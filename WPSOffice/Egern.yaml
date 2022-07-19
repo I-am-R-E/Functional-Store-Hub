@@ -1,0 +1,15 @@
+#!name=WPS会员
+#!desc=WPS解锁本地会员,支持大陆版以及非大陆版(2022.07.10)
+#!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice
+#!author=@R·E https://t.me/Functional_Store_Hub
+
+scriptings:
+  - http_response:
+      name: WPS会员
+      match: "^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$"
+      script_url: "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js"
+      max_size: 1048576
+      body_required: true
+http_captures:
+  - account.wps.cn
+  - *account.wps.com
