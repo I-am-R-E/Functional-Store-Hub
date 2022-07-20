@@ -12,3 +12,5 @@ scriptings:
       body_required: true
 http_captures:
   - ipadcms.caixin.com
+mitm:
+  - ipadcms.caixin.com
