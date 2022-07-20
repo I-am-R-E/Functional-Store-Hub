@@ -12,3 +12,5 @@ scriptings:
       body_required: true
 http_captures:
   - restore-access.indream.app
+mitm:
+  - restore-access.indream.app
