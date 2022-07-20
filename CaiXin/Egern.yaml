@@ -12,3 +12,5 @@ scriptings:
       body_required: true
 http_captures:
   - gateway.caixin.com
+mitm:
+  - gateway.caixin.com
