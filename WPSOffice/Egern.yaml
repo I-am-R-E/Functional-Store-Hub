@@ -13,3 +13,6 @@ scriptings:
 http_captures:
   - account.wps.cn
   - *account.wps.com
+mitm:
+  - account.wps.cn
+  - *account.wps.com
