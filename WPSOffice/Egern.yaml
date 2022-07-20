@@ -6,7 +6,8 @@
 scriptings:
   - http_response:
       name: WPS会员
-      script_url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
+      script_url: >-
+        https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
       match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
       body_required: true
 mitm:
