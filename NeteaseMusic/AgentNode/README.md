@@ -13,7 +13,7 @@
 | Loon | 12 | 2022.07.16 | [Loon.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Loon.list) |
 | Stash | 12 | 2022.07.16 | [Stash.yaml](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Stash.yaml) |
 | ShadowRocket | 12 | 2022.07.16 | [Shadowrocket.list](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/Shadowrocket.list) |
- 
+
 </div>
 <div align="center">
 简略使用方法:分流指向节点<br><br>详细使用方法:https://t.me/Functional_Store_Hub/18
