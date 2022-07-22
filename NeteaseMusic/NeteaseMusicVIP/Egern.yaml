@@ -1,0 +1,14 @@
+#!name=网易云音乐会员
+#!desc=解锁网易云音乐全部会员权限 @Functional_Store_Hub
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@R·E https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/NeteaseMusicVIP
+
+scriptings:
+  - http_request:
+      name: 网易云音乐会员
+      script_url: >-
+        https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/NeteaseMusicVIP/Script/NeteaseMusicVIP.js
+      match: ^https?:\/\/.*music\.163\.com.*
+      body_required: true
+mitm:
+  - '*music.163.com'
