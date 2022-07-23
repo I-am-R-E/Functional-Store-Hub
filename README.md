@@ -16,8 +16,9 @@
 | QuantumultX配置 | 0.0 | Configuration File | QuantumultX | 最有逻辑的QuantumultX懒人配置文件 | Come Soon |
 | ShadowRocket配置 | 0.0 | Configuration File | ShadowRocket | 最有逻辑的ShadowRocket懒人配置文件 | Come Soon |
 | WPS Office | 1.0(2022.07.10) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket<br>HTTPCatcher | WPS Office<br>超级会员 | [WPS Office](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice) |
-| 财新<!--<del>财新</del><br>已失效--> | 1.0(2022.07.11) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket | 财新阅读、音频 | [财新](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/CaiXin) |
+| 财新<!--<del>财新</del><br>已失效--> | 1.0(2022.07.11) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket | 财新阅读<del>、音频</del> | [财新](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/CaiXin) |
 | 财新周刊 | 1.0(2022.07.12) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket | 财新周刊<br>会员 | [财新周刊](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/CaiXinWeekly) |
+| Nicegram | 1.0(2022.07.24) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket | Nicegram<br>Premium | [Nicegram](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/Nicegram) |
 </div>
  
 🎉 你可以在这里找到使用方法和注意事项: [Functional Store Hub 频道](https://t.me/Functional_Store_Hub)
