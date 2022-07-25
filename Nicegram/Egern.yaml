@@ -6,11 +6,9 @@
 scriptings:
   - http_response:
       name: Nicegram会员
-      match: "^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$"
-      script_url: "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js"
-      max_size: 1048576
+      script_url: >-
+        https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
+      match: ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$
       body_required: true
-http_captures:
-  - restore-access.indream.app
 mitm:
   - restore-access.indream.app
