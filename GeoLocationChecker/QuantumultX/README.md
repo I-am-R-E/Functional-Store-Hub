@@ -2,7 +2,8 @@
 <h1 align="center">Geo Location Checker
 <br>本地Geo检查器<h1>
 <p align="center" color="#6a737d"><p>
- <h3 align="center">支持QuantumultX、优化中文和英文<h3>
+<h3 align="center">支持QuantumultX、优化中文和英文<h3>
+<h4 align="center">Version 1.3<h4>
 <br>
 </div>
 <b>使用方式：</b>
