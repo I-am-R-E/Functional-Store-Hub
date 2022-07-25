@@ -5,12 +5,11 @@
 
 scriptings:
   - http_response:
-      name: 财新周刊会员
-      match: "^https?:\/\/ipadcms\.caixin\.com\/(api|tmp|power)\/(articles?|myfree(v\d+)?)"
-      script_url: "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXinWeekly/Script/CaiXinWeekly.js"
-      max_size: 1048576
+      name: WPS会员
+      script_url: >-
+        https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXinWeekly/Script/CaiXinWeekly.js
+      match: >-
+        ^https?:\/\/ipadcms\.caixin\.com\/(api|tmp|power)\/(articles?|myfree(v\d+)?)
       body_required: true
-http_captures:
-  - ipadcms.caixin.com
 mitm:
   - ipadcms.caixin.com
