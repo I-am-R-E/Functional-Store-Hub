@@ -4,7 +4,7 @@
 #!author=@R·E https://t.me/Functional_Store_Hub
 
 [Script]
-http-response ^https?:\/\/ipadcms\.caixin\.com\/(api|tmp|power)\/(articles?|myfree(v\d+)?) script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXinWeekly/Script/CaiXinWeekly.js, requires-body=true, timeout=10, tag=WPS会员
+http-response ^https?:\/\/ipadcms\.caixin\.com\/(api|tmp|power)\/(articles?|myfree(v\d+)?) script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXinWeekly/Script/CaiXinWeekly.js, requires-body=true, timeout=10, tag=财新周刊
 
 [MITM]
 hostname = ipadcms.caixin.com
