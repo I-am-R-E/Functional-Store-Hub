@@ -6,11 +6,10 @@
 scriptings:
   - http_request:
       name: 财新会员
-      match: "^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth)"
-      script_url: "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js"
-      max_size: 1048576
+      script_url: >-
+        https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
+      match: >-
+        ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth)
       body_required: true
-http_captures:
-  - gateway.caixin.com
 mitm:
   - gateway.caixin.com
