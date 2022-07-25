@@ -5,7 +5,7 @@
 
 scriptings:
   - http_response:
-      name: WPS会员
+      name: 财新周刊
       script_url: >-
         https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXinWeekly/Script/CaiXinWeekly.js
       match: >-
