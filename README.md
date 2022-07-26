@@ -12,7 +12,7 @@
 | 网易音乐解锁节点 | 2022.07.11 | Nodelist | Surge<br>QuantumultX<br>Loon<br>Stash<br>Shadowrocket | 10条解锁网易云灰色和VIP音乐节点 | [Agent Node](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode) |
 | 代理链路检测 | 2.0(2022.6.14) | Script | QX Loon Surge Stash(适配中) | 检测指定节点的代理链路状况 | [Node Link Check](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NodeLinkCheck) |
 | 知乎极致优化 | 0.0 | Script | QX Loon Surge Stash | 针对知乎6.0客户端的极致优化 | Come Soon |
-| 本地Geo检查器优化 | 1.2(2022.6.24) | Script | QuantumultX | 内容优化且只显示有用信息的本地Geo检查器 | [Geo Location Checker](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/GeoLocationChecker/QuantumultX) |
+| 本地Geo检查器优化 | 1.3(2022.07.26) | Script | QuantumultX | 内容优化且只显示有用信息的本地Geo检查器 | [Geo Location Checker](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/GeoLocationChecker/QuantumultX) |
 | QuantumultX配置 | 0.0 | Configuration File | QuantumultX | 最有逻辑的QuantumultX懒人配置文件 | Come Soon |
 | ShadowRocket配置 | 0.0 | Configuration File | ShadowRocket | 最有逻辑的ShadowRocket懒人配置文件 | Come Soon |
 | WPS Office | 1.0(2022.07.10) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket<br>HTTPCatcher | WPS Office<br>超级会员 | [WPS Office](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice) |
