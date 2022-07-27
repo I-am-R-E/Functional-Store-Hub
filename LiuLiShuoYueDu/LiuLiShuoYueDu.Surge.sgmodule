@@ -1,0 +1,14 @@
+#!name=流利说·阅读
+#!desc=解锁流利说·阅读会员、解锁阅读权限、解锁音频权限等
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@R·E https://t.me/Functional_Store_Hub
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/LiuLiShuoYueDu
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+#!other=LiuLiShuoYueDu.Surge.sgmodel
+
+[Script]
+流利说·阅读=type=http-response,pattern=^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/Script/LiuLiShuoYueDu.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% vira.llsapp.com
