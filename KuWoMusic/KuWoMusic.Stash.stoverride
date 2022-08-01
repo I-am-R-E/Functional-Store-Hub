@@ -1,0 +1,49 @@
+#!name=酷我音乐
+#!desc=解锁酷我音乐会员、听书、下载权限,可下载无损!
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@Nameking77 https://t.me/Nameking77
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/KuWoMusic
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+#!other=KuWoMusic.Stash.stoverride
+
+name: 酷我音乐
+desc: 解锁酷我音乐会员、听书、下载权限,可下载无损! By Nameking77
+http:
+  mitm:
+    - '*.kuwo.cn'
+    - '*.lrts.me'
+  script:
+    - match: ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip)
+      name: KuWoMusic1
+      type: request
+      require-body: false
+      timeout: 10
+    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
+      name: KuWoMusic2
+      type: respones
+      require-body: true
+      timeout: 10
+    - match: ^http://vip1.kuwo.cn/vip/enc/user/vip.+$
+      name: KuWoMusic3
+      type: respones
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
+      name: KuWoMusic4
+      type: respones
+      require-body: true
+      timeout: 10
+script-providers:
+  KuWoMusic:1
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    interval: 86400
+  KuWoMusic:2
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    interval: 86400
+  KuWoMusic:3
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    interval: 86400
+  KuWoMusic:4
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    interval: 86400

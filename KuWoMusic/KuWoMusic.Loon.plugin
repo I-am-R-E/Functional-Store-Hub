@@ -1,0 +1,17 @@
+#!name=酷我音乐
+#!desc=解锁酷我音乐会员、听书、下载权限,可下载无损!
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@Nameking77 https://t.me/Nameking77
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/KuWoMusic
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+#!other=KuWoMusic.Loon.plugin
+
+[Script]
+http-request ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip) script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js, timeout=10, tag=酷我音乐1
+http-response ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$ script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js, requires-body=true, timeout=10, tag=酷我音乐2
+http-response ^http://vip1.kuwo.cn/vip/enc/user/vip.+$ script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js, requires-body=true, timeout=10, tag=酷我音乐3
+http-response ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$ script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js, requires-body=true, timeout=10, tag=酷我音乐4
+
+[MITM]
+hostname = *.kuwo.cn,*.lrts.me
