@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://t.me/Functional_Store_Hub" target="_blank"><img width="200" src="https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/Functional-Store-Hub.png" alt="Functional Store Hub"></a>
+<a href="https://t.me/Functional_Store_Hub" target="blank"><img width="200" src="https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/Functional-Store-Hub.png" alt="Functional Store Hub"></a>
 <h1 align="center">Functional Store Hub<h1>
 <p align="center" color="#6a737d"><p>
 <h3 align="center">解锁酷我音乐会员、听书、下载权限,可下载无损!<h3>
