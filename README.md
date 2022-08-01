@@ -1,5 +1,5 @@
 <div align="center">
-<img width="200" src="https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/Functional-Store-Hub.png" alt="Functional Store Hub">
+<a href="https://t.me/Functional_Store_Hub" target="_blank" ><img width="200" src="https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/Functional-Store-Hub.png" alt="Functional Store Hub"></a>
 <h1 align="center">Functional Store Hub<h1>
 <p align="center" color="#6a737d"><p>
 <h3 align="center">一些有用的功能性脚本、节点和配置<h3>
