@@ -21,17 +21,17 @@ http:
       timeout: 10
     - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
       name: KuWoMusic2
-      type: respones
+      type: response
       require-body: true
       timeout: 10
     - match: ^http://vip1.kuwo.cn/vip/enc/user/vip.+$
       name: KuWoMusic3
-      type: respones
+      type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
       name: KuWoMusic4
-      type: respones
+      type: response
       require-body: true
       timeout: 10
 script-providers:
