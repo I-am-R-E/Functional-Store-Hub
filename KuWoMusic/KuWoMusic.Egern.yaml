@@ -12,22 +12,22 @@ scriptings:
       name: 酷我音乐1
       script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
       match: >-
-        ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip)
+        ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
   - http_response:
       name: 酷我音乐2
-      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
       match: >-
-        ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
+        ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip)
       body_required: true
   - http_response:
       name: 酷我音乐3
-      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
       match: >-
         ^http://vip1.kuwo.cn/vip/enc/user/vip.+$
       body_required: true
   - http_response:
       name: 酷我音乐4
-      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js
       match: >-
         ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
       body_required: true
