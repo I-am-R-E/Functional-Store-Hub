@@ -14,12 +14,12 @@ http:
     - '*.kuwo.cn'
     - '*.lrts.me'
   script:
-    - match: ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip)
+    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
       name: KuWoMusic1
       type: request
       require-body: false
       timeout: 10
-    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
+    - match: ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip)
       name: KuWoMusic2
       type: response
       require-body: true
@@ -39,11 +39,11 @@ script-providers:
     url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
     interval: 86400
   KuWoMusic2:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
     interval: 86400
   KuWoMusic3:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
     interval: 86400
   KuWoMusic4:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js
     interval: 86400
