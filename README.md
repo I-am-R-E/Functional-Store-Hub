@@ -21,7 +21,7 @@
 | 财新周刊 | 1.0(2022.07.12) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket | 财新周刊<br>会员 | [财新周刊](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/CaiXinWeekly) |
 | Nicegram | 1.0(2022.07.24) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket | Nicegram<br>Premium | [Nicegram](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/Nicegram) |
 | 流利说·阅读 | 1.0(2022.07.27) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket | 流利说·阅读<br>999days VIP | [流利说·阅读](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/LiuLiShuoYueDu) |
-| 酷我音乐 | 1.0(2022.08.01) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket<br>HTTPCatcher | 酷我音乐<br>高级会员 | [酷我音乐](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/KuWoMusic) |
+| 酷我音乐 | 1.0(2022.08.01) | Script | Surge<br>QuantumultX<br>Loon<br>Stash<br>Egern<br>Shadowrocket<br>HTTPCatcher | 酷我音乐<br>高级会员<br>作者:king | [酷我音乐](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/KuWoMusic) |
 </div>
  
 🎉 你可以在这里找到使用方法和注意事项: [Functional Store Hub 频道](https://t.me/Functional_Store_Hub)
