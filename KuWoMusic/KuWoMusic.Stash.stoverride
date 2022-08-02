@@ -35,15 +35,15 @@ http:
       require-body: true
       timeout: 10
 script-providers:
-  KuWoMusic1
+  KuWoMusic1:
     url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
     interval: 86400
-  KuWoMusic2
+  KuWoMusic2:
     url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
     interval: 86400
-  KuWoMusic3
+  KuWoMusic3:
     url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
     interval: 86400
-  KuWoMusic4
+  KuWoMusic4:
     url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
     interval: 86400
