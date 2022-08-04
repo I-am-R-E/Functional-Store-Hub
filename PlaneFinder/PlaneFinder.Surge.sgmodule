@@ -1,0 +1,14 @@
+#!name=PlaneFinder
+#!desc=解锁PlaneFinder高级订阅
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@R·E https://t.me/Functional_Store_Hub
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/PlaneFinder
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+#!other=PlaneFinder.Surge.sgmodel
+
+[Script]
+PlaneFinder=type=http-response,pattern=^https?:\/\/app\-live\.planefinder\.net\/api\/v\d+\/account\/\w+\/login,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PlaneFinder/Script/PlaneFinder.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% app-live.planefinder.net
