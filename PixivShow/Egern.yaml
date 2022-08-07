@@ -1,0 +1,14 @@
+#!name=Pixiv Show
+#!desc=高定制化Pixiv推送服务
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@R·E https://t.me/Functional_Store_Hub
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/PixivShow
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+
+scriptings:
+  - schedule:
+      name: Pixiv Show
+      script_url: "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PixivShow/Script/PixivShow.js"
+      cron: 0 0/30 8-22 * * ?
+      body_required: false
