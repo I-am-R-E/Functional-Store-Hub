@@ -1,4 +1,4 @@
-#!name=Pixiv Show
+#!name=PixivShow
 #!desc=高定制化Pixiv推送服务,可在BoxJS中做更详细的设置
 #!openUrl=https://t.me/Functional_Store_Hub
 #!author=@R·E https://t.me/Functional_Store_Hub
@@ -9,7 +9,7 @@
 cron:
   script:
     - name: PixivShow
-      cron: '0 0/30 8-22 * * ?'
+      cron: '0 0/30 8-22 * *'
       argument: ''
       timeout: 10
  
