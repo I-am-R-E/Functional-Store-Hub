@@ -6,6 +6,9 @@
 #!manual=https://t.me/Functional_Store_Hub/10
 #!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
 
+name: PixivShow
+desc: 高定制化Pixiv推送服务,可在BoxJS中做更详细的设置 @R·E https://t.me/Functional_Store_Hub
+
 cron:
   script:
     - name: PixivShow
