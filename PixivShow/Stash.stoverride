@@ -12,7 +12,7 @@ desc: 高定制化Pixiv推送服务,可在BoxJS中做更详细的设置 @R·E ht
 cron:
   script:
     - name: PixivShow
-      cron: '0 0/30 8-22 * *'
+      cron: '0/30 8-22 * * *'
       argument: ''
       timeout: 10
  
