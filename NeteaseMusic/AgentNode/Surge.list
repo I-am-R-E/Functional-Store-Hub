@@ -1,15 +1,15 @@
 # > NeteaseMusic Unlock List
 # > All Nodes
 # > 2022.07.16
-NeteaseMusic Unlock 1 = http, music.lolico.me, 39000
-NeteaseMusic Unlock 2 = ss, 101.132.192.212, 30001, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
-NeteaseMusic Unlock 3 = ss, 101.132.192.212, 30003, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
-NeteaseMusic Unlock 4 = http,101.132.79.113,23333
-NeteaseMusic Unlock 5 = http,music.griouges.cn,39000
-NeteaseMusic Unlock 6 = http,1.116.214.16,19980
-NeteaseMusic Unlock 7 = http,salvan.icu,19980
-NeteaseMusic Unlock 8 = http,os.tencentcdn.net,25000
-NeteaseMusic Unlock 9 = http,pc.tencentcdn.net,35000
-NeteaseMusic Unlock 10 = http,119.176.253.89,9080
-NeteaseMusic Unlock 11 = http,azgw.kevinxiao.cf,70
-NeteaseMusic Unlock 12 = http,azmb.kevinxiao.cf,70
+NeteaseMusic Unlock 1 = http,music.lolico.me,39000,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 2 = ss,101.132.192.212,30001,encrypt-method=aes-128-gcm,password=desperadoj.com_free_proxy_etg0,tfo=false,udp-relay=false,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 3 = ss,101.132.192.212,30003,encrypt-method=aes-128-gcm,password=desperadoj.com_free_proxy_etg0,tfo=false,udp-relay=false,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 4 = http,101.132.79.113,23333,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 5 = http,music.griouges.cn,39000,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 6 = http,1.116.214.16,19980,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 7 = http,salvan.icu,19980,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 8 = http,os.tencentcdn.net,25000,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 9 = http,pc.tencentcdn.net,35000,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 10 = http,119.176.253.89,9080,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 11 = http,azgw.kevinxiao.cf,70,test-url=http://interface3.music.163.com
+NeteaseMusic Unlock 12 = http,azmb.kevinxiao.cf,70,test-url=http://interface3.music.163.com
