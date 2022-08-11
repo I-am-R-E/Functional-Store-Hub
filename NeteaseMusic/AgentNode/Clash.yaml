@@ -1,0 +1,17 @@
+# > NeteaseMusic Unlock List
+# > All Nodes
+# > 2022.08.11
+
+proxies:
+  - {"server":"music.lolico.me","port":39000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 1","type":"http"}
+  - {"server":"101.132.192.212","port":30001,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_etg0","tfo":false,"udp":false,"name":"NeteaseMusic Unlock 2","type":"ss"}
+  - {"server":"101.132.192.212","port":30003,"cipher":"aes-128-gcm","password":"desperadoj.com_free_proxy_etg0","tfo":false,"udp":false,"name":"NeteaseMusic Unlock 3","type":"ss"}
+  - {"server":"101.132.79.113","port":23333,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 4","type":"http"}
+  - {"server":"music.griouges.cn","port":39000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 5","type":"http"}
+  - {"server":"1.116.214.16","port":19980,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 6","type":"http"}
+  - {"server":"salvan.icu","port":19980,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 7","type":"http"}
+  - {"server":"os.tencentcdn.net","port":25000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 8","type":"http"}
+  - {"server":"pc.tencentcdn.net","port":35000,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 9","type":"http"}
+  - {"server":"119.176.253.89","port":9080,"tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 10","type":"http"}
+  - {"server":"azgw.kevinxiao.cf","tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 11","type":"http"}
+  - {"server":"azmb.kevinxiao.cf","tls":false,"tfo":false,"udp":false,"name":"NeteaseMusic Unlock 12","type":"http"}
