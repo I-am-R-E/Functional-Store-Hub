@@ -1,0 +1,24 @@
+#!name=Xmind思维导图
+#!desc=解锁Xmind思维导图订阅到2030年
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@R·E https://t.me/Functional_Store_Hub
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/Xmind
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+#!other=Xmind.Stash.stoverride
+
+name: Xmind思维导图
+desc: 解锁Xmind思维导图订阅到2030年 By R·E @Functional_Store_Hub
+http:
+  mitm:
+    - 'www.xmind.cn'
+  script:
+    - match: https?:\/\/www\.xmind\.cn\/\_res\/devices
+      name: Xmind
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  Xmind:
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js
+    interval: 86400

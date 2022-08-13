@@ -1,0 +1,14 @@
+#!name=Xmind思维导图
+#!desc=解锁Xmind思维导图订阅到2030年
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@R·E https://t.me/Functional_Store_Hub
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/Xmind
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+#!other=Xmind.Surge.sgmodel
+
+[Script]
+Xmind思维导图=type=http-response,pattern=https?:\/\/www\.xmind\.cn\/\_res\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% www.xmind.cn
