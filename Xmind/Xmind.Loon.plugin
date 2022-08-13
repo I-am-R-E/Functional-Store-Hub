@@ -8,7 +8,7 @@
 #!other=Xmind.Loon.plugin
 
 [Script]
-http-response https?:\/\/www\.xmind\.cn\/\_res\/devices script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js,requires-body=true, timeout=10, tag=Xmind思维导图
+http-response https?:\/\/www\.xmind\.(cn|net)\/\_res\/devices script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js,requires-body=true, timeout=10, tag=Xmind思维导图
 
 [MITM]
-hostname = www.xmind.cn
+hostname = www.xmind.cn, www.xmind.net

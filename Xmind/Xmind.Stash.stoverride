@@ -12,8 +12,9 @@ desc: 解锁Xmind思维导图订阅到2030年 By R·E @Functional_Store_Hub
 http:
   mitm:
     - 'www.xmind.cn'
+    - 'www.xmind.net'
   script:
-    - match: https?:\/\/www\.xmind\.cn\/\_res\/devices
+    - match: https?:\/\/www\.xmind\.(cn|net)\/\_res\/devices
       name: Xmind
       type: response
       require-body: true

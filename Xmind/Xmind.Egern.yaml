@@ -13,7 +13,8 @@ scriptings:
       script_url: >-
         https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js
       match: >-
-        https?:\/\/www\.xmind\.cn\/\_res\/devices
+        https?:\/\/www\.xmind\.(cn|net)\/\_res\/devices
       body_required: true
 mitm:
   - 'www.xmind.cn'
+  - 'www.xmind.net'
