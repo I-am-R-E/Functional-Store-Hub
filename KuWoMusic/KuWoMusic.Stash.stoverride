@@ -1,5 +1,5 @@
 #!name=酷我音乐
-#!desc=解锁酷我音乐会员、听书、下载权限,可下载无损!
+#!desc=代码重构,这版是最完美！！！的酷我解锁
 #!openUrl=https://t.me/Functional_Store_Hub
 #!author=@Nameking77 https://t.me/Nameking77
 #!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/KuWoMusic
@@ -8,42 +8,17 @@
 #!other=KuWoMusic.Stash.stoverride
 
 name: 酷我音乐
-desc: 解锁酷我音乐会员、听书、下载权限,可下载无损! By Nameking77
+desc: 代码重构,这版是最完美！！！的酷我解锁 By Nameking77 https://t.me/Nameking77
 http:
   mitm:
-    - '*.kuwo.cn'
-    - '*.lrts.me'
+    - '*.kuwo.cn, *.lrts.me'
   script:
-    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
-      name: KuWoMusic1
-      type: request
-      require-body: false
-      timeout: 10
-    - match: ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip)
-      name: KuWoMusic2
-      type: response
-      require-body: true
-      timeout: 10
-    - match: ^http://vip1.kuwo.cn/vip/enc/user/vip.+$
-      name: KuWoMusic3
-      type: response
-      require-body: true
-      timeout: 10
-    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
-      name: KuWoMusic4
+    - match: ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*
+      name: KuWoMusic
       type: response
       require-body: true
       timeout: 10
 script-providers:
-  KuWoMusic1:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
-    interval: 86400
-  KuWoMusic2:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
-    interval: 86400
-  KuWoMusic3:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
-    interval: 86400
-  KuWoMusic4:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js
+  KuWoMusic:
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js
     interval: 86400

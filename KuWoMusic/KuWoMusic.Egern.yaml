@@ -1,5 +1,5 @@
 #!name=酷我音乐
-#!desc=解锁酷我音乐会员、听书、下载权限,可下载无损!
+#!desc=代码重构,这版是最完美！！！的酷我解锁
 #!openUrl=https://t.me/Functional_Store_Hub
 #!author=@Nameking77 https://t.me/Nameking77
 #!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/KuWoMusic
@@ -8,28 +8,12 @@
 #!other=KuWoMusic.Egern.yaml
 
 scriptings:
-  - http_request:
-      name: 酷我音乐1
-      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
-      match: >-
-        ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$
   - http_response:
-      name: 酷我音乐2
-      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
+      name: 酷我音乐
+      script_url: >-
+        https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js
       match: >-
-        ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip)
-      body_required: true
-  - http_response:
-      name: 酷我音乐3
-      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
-      match: >-
-        ^http://vip1.kuwo.cn/vip/enc/user/vip.+$
-      body_required: true
-  - http_response:
-      name: 酷我音乐4
-      script_url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js
-      match: >-
-        ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
+        ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*
       body_required: true
 mitm:
   - '*.kuwo.cn'
