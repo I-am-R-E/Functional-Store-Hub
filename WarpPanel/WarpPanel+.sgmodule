@@ -1,0 +1,19 @@
+#!name=WarpPanel
+#!desc=一款可以验证Warp,显示IP和流量的面板 @Functional_Store_Hub
+#!openUrl=https://t.me/Functional_Store_Hub
+#!author=@R·E https://t.me/Functional_Store_Hub
+#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WarpPanel
+#!manual=https://t.me/Functional_Store_Hub/10
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
+#!other=WarpPanel.Surge.sgmodel
+
+[Panel]
+WarpPanel = script-name=WarpPanel,update-interval=1
+
+[Script]
+WarpPanel = type=generic,timeout=10,script-path=https://gist.githubusercontent.com/I-am-R-E/670efc5aa53e33df8e3efe9e8e5eb54b/raw/ecfa6723ff3ffaae3b6813aa8ae7ac6644cf0851/WarpPanel.js
+
+WarpPanel = type=http-request,pattern=^https?:\/\/(api\.cloudflareclient\.com|zero\-trust\-client\.cloudflareclient\.com)\/\w+\/\w+\/[\w\-\.]+$,requires-body=0,max-size=0,script-path=https://gist.githubusercontent.com/I-am-R-E/670efc5aa53e33df8e3efe9e8e5eb54b/raw/ecfa6723ff3ffaae3b6813aa8ae7ac6644cf0851/WarpPanel.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% api.cloudflareclient.com,zero-trust-client.cloudflareclient.com
