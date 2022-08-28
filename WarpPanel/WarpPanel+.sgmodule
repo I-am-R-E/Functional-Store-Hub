@@ -11,9 +11,9 @@
 WarpPanel = script-name=WarpPanel,update-interval=1
 
 [Script]
-WarpPanel = type=generic,timeout=10,script-path=https://gist.githubusercontent.com/I-am-R-E/670efc5aa53e33df8e3efe9e8e5eb54b/raw/ecfa6723ff3ffaae3b6813aa8ae7ac6644cf0851/WarpPanel.js
+WarpPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WarpPanel/Script/WarpPanel.js
 
-WarpPanel = type=http-request,pattern=^https?:\/\/(api\.cloudflareclient\.com|zero\-trust\-client\.cloudflareclient\.com)\/\w+\/\w+\/[\w\-\.]+$,requires-body=0,max-size=0,script-path=https://gist.githubusercontent.com/I-am-R-E/670efc5aa53e33df8e3efe9e8e5eb54b/raw/ecfa6723ff3ffaae3b6813aa8ae7ac6644cf0851/WarpPanel.js,script-update-interval=0
+WarpPanel = type=http-request,pattern=^https?:\/\/(api\.cloudflareclient\.com|zero\-trust\-client\.cloudflareclient\.com)\/\w+\/\w+\/[\w\-\.]+$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WarpPanel/Script/WarpPanel.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% api.cloudflareclient.com,zero-trust-client.cloudflareclient.com
