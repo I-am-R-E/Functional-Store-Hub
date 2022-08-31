@@ -1,19 +1,23 @@
-#!name=WarpPanel
-#!desc=一款可以验证Warp,显示IP和流量的面板 @Functional_Store_Hub
-#!openUrl=https://t.me/Functional_Store_Hub
-#!author=@R·E https://t.me/Functional_Store_Hub
-#!homepage=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WarpPanel
-#!manual=https://t.me/Functional_Store_Hub/10
-#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
-#!other=WarpPanel.Surge.sgmodel
+#!name=☁️ 1.1.1.1 by Cloudflare with WARP 客户端配置管理
+#!desc=(V2) 1.1.1.1 by Cloudflare APP with WARP Client Config Management
+#!openUrl=http://boxjs.com/#/app/Cloudflare.WARP
+#!author=VirgilClyne & R·E
+#!homepage=https://github.com/VirgilClyne
+#!manual=https://github.com/VirgilClyne/Cloudflare/wiki/☁-1.1.1.1-by-Cloudflare-with-WARP
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cloudflare.png
 
 [Panel]
-WarpPanel = script-name=WarpPanel,update-interval=1
+☁ WARP Panel = title="☁ WARP Info", icon="lock.icloud.fill", script-name=☁ WARP Panel
 
 [Script]
-WarpPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WarpPanel/Script/WarpPanel.js
-
-WarpPanel = type=http-request,pattern=^https?:\/\/(api\.cloudflareclient\.com|zero\-trust\-client\.cloudflareclient\.com)\/\w+\/\w+\/[\w\-\.]+$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WarpPanel/Script/WarpPanel.js,script-update-interval=0
+# WARP Panel
+#!PROFILE-VERSION-REQUIRED 10 ☁ WARP Panel = type=generic, timeout=10, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.panel.js
+# WARP Personal
+☁ WARP Personal Request = type=http-request,pattern=^https?:\/\/(api|zero-trust-client)\.cloudflareclient\.com\/(.*)\/reg\/[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.request.js
+☁ WARP Personal Response = type=http-response,pattern=^https?:\/\/(api|zero-trust-client)\.cloudflareclient\.com\/(.*)\/reg\/[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.response.js
+# Cloudflare for Teams
+☁ WARP Teams Request = type=http-request,pattern=^https?:\/\/(api|zero-trust-client)\.cloudflareclient\.com\/(.*)\/reg\/t\.[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.request.js
+☁ WARP Teams Response = type=http-response,pattern=^https?:\/\/(api|zero-trust-client)\.cloudflareclient\.com\/(.*)\/reg\/t\.[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.response.js
 
 [MITM]
-hostname = %APPEND% api.cloudflareclient.com,zero-trust-client.cloudflareclient.com
+hostname = %APPEND% api.cloudflareclient.com, zero-trust-client.cloudflareclient.com
