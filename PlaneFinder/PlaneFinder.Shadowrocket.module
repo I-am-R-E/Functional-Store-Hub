@@ -11,4 +11,4 @@
 PlaneFinder=type=http-response,pattern=^https?:\/\/app\-live\.planefinder\.net\/api\/v\d+\/account\/\w+\/login,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PlaneFinder/Script/PlaneFinder.js,script-update-interval=0
 
 [MITM]
-hostname = app-live.planefinder.net
+hostname = %APPEND% app-live.planefinder.net
