@@ -11,4 +11,5 @@ scriptings:
       match: ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$
       body_required: false
 mitm:
-  - restore-access.indream.app
+  hostnames:
+    - restore-access.indream.app
