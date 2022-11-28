@@ -16,5 +16,6 @@ scriptings:
         ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*
       body_required: true
 mitm:
-  - '*.kuwo.cn'
-  - '*.lrts.me'
+  hostnames:
+    - '*.kuwo.cn'
+    - '*.lrts.me'
