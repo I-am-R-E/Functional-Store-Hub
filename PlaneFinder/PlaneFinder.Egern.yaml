@@ -16,4 +16,5 @@ scriptings:
         ^https?:\/\/app\-live\.planefinder\.net\/api\/v\d+\/account\/\w+\/login
       body_required: true
 mitm:
-  - 'app-live.planefinder.net'
+  hostnames:
+    - 'app-live.planefinder.net'
