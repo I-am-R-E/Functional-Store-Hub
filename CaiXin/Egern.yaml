@@ -12,4 +12,5 @@ scriptings:
         ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth)
       body_required: true
 mitm:
-  - gateway.caixin.com
+  hostnames:
+    - gateway.caixin.com
