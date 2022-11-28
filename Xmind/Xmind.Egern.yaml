@@ -16,6 +16,7 @@ scriptings:
         https?:\/\/www\.xmind\.(cn|net|app)\/\_res\/devices
       body_required: true
 mitm:
-  - 'www.xmind.cn'
-  - 'www.xmind.net'
-  - 'www.xmind.app'
+  hostnames:
+    - 'www.xmind.cn'
+    - 'www.xmind.net'
+    - 'www.xmind.app'
