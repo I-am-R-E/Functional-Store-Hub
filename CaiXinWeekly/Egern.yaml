@@ -12,4 +12,5 @@ scriptings:
         ^https?:\/\/ipadcms\.caixin\.com\/(api|tmp|power)\/(articles?|myfree(v\d+)?)
       body_required: true
 mitm:
-  - ipadcms.caixin.com
+  hostnames:
+    - ipadcms.caixin.com
