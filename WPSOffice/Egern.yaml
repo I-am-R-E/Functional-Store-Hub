@@ -11,5 +11,6 @@ scriptings:
       match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
       body_required: true
 mitm:
-  - account.wps.cn
-  - '*account.wps.com'
+  hostnames:
+    - account.wps.cn
+    - '*account.wps.com'
