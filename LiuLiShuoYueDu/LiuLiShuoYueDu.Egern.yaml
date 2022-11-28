@@ -16,4 +16,5 @@ scriptings:
         ^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$
       body_required: true
 mitm:
-  - 'vira.llsapp.com'
+  hostnames:
+    - 'vira.llsapp.com'
